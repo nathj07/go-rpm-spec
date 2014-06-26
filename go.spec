@@ -1,11 +1,11 @@
-Name:           go
-Version:        1.2
+Name:           golang
+Version:        1.3
 Release:        1%{?dist}
 Summary:        Go development tools
 Group:          Development/Languages
 License:        BSD
 URL:            http://golang.org
-Source:         https://go.googlecode.com/files/%{name}%{version}.src.tar.gz
+Source:         https://storage.googleapis.com/%{name}/go%{version}.src.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildRequires:  gcc
 AutoReqProv:    no
