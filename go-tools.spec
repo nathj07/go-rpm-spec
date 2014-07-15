@@ -7,9 +7,9 @@ License:        BSD
 URL:            http://golang.org
 Source:         https://code.google.com/p/go/source/checkout?repo=tools
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
-#BuildRequires:  go >= %{version}
+BuildRequires:  golang >= %{version}
 AutoReqProv:    no
-#Requires:       go >= %{version}
+Requires:       golang >= %{version}
 
 %define __spec_install_post %{nil}
 
